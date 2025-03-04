@@ -11,6 +11,9 @@ pip3 install diffusers accelerate scipy safetensors
 pip3 install torch torchdata torchvision
 pip install smolagents
 pip install nbconvert[webpdf]
+
+echo "Preloads..."
+python3 ./preload.py
  
 echo "+++ Start time: ${START}"
 echo "+++ End time: $(date)"
